@@ -2,6 +2,7 @@
 layout: post-page
 title: FOSSASIA, me and Open Source
 category: gci
+image: fossasia.jpeg
 meta: Article on about my interests and participation with FOSSASIA and open source community.
 ---
 
