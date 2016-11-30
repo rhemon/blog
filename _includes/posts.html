@@ -1,11 +1,24 @@
 <div id="posts" class="col-sm-9">
+
 {% for post in site.posts %}
 {% if include.cat contains post.category | first %}
-<section class="post">
-    <h1><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h1>
-    <p>{{post.date | date: '%B %d, %Y' }}</p>
-    <p>{{post.content}}</p>
-</section>
+<div class="post">
+
+    {% if post.image %}
+    <div class="row">
+    <div class="image-holder col-xs-3">
+            <img width="150px" height="150px" class="post-image" class="img-responsive img-thumbnail" src="{{site.baseurl}}/img/{{post.image}}"/>
+    </div>
+    {% endif %}
+    <div class="{% if post.image %}content-holder col-xs-9 {% endif %}">
+        <h3><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h3>
+        <p><strong>{{post.date | date: '%B %d, %Y' }}</strong></p>
+        <p>{{post.meta}}</p>
+    </div>
+    {% if post.image %}
+    </div>
+    {% endif %}
+</div>
 {% endif %}
 {% endfor %}
 </div>
