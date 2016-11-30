@@ -10,9 +10,8 @@ meta: I have finally managed to get myself a developer account in google play st
 <img src="{{site.baseurl}}/img/{{page.head_image}}" width="250px" height="250px"/>
 
 While doing some excel work for my dad, I stumbled upon something that went by the name of 'sieve analysis of aggregates'. To do it in excel was quite simple, all I needed was to enter some data
-and excel would do all the calculation and form a semi-log graph for me. However one thing
-remained repetitive, it was finding the values of Y co-ordinate when X is 60 and 10.
-After finding that I would have to type those data, and excel would find the final piece of data, uniform
+and excel would do all the calculation and form a semi-log graph for me. The only repetitive task I had was finding the values of Y coordinate when X is 60 and 10.
+After finding that I would have to type those data, and excel would find the final piece of data - uniform
 coefficient.
 
 Now I recently got a developer account on play store, so I really wanted to get some apps published.
