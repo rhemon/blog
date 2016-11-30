@@ -1,0 +1,11 @@
+<div id="posts" class="col-sm-9">
+{% for post in site.posts %}
+{% if include.cat contains post.category | first %}
+<section class="post">
+    <h1><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h1>
+    <p>{{post.date | date: '%B %d, %Y' }}</p>
+    <p>{{post.content}}</p>
+</section>
+{% endif %}
+{% endfor %}
+</div>

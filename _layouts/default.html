@@ -29,8 +29,8 @@
                 </div>
                 <div class="collapse navbar-collapse" id="page-nav">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="{% if page.url contains 'aboutme' %} active {% endif %}"><a href="">About Me</a></li>
-                        <li class="{% if page.url == '/' %} active {% endif %}"><a href="">Posts</a></li>
+                        <li class="{% if page.url contains 'aboutme' %} active {% endif %}"><a href="{{site.baseurl}}/aboutme">About Me</a></li>
+                        <li class="{% if page.url == '/' or page.url contains 'posts' %} active {% endif %}"><a href="{{site.baseurl}}/">Posts</a></li>
                     </ul>
                 </div>
             </div>
@@ -41,7 +41,7 @@
         {{content}}
     </div>
     </div>
-    
+
         <script src="{{site.baseurl}}/lib/js/jquery.min.js"></script>
         <script src="{{site.baseurl}}/lib/js/bootstrap.min.js"></script>
 
