@@ -1,0 +1,10 @@
+#posts {
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 0;
+}
+.post {
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid darkgrey;
+}

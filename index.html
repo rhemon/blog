@@ -1,8 +1,28 @@
-<html>
-<head>
-    <title>rhemon - Blog</title>
-</head>
-<body>
-    <h1>rhemon - Blog</h1>
-</body>
-</html>
+---
+layout: default
+---
+
+{% assign checked_categories = site.categories %}
+
+<!-- Left side of screen containing all posts -->
+<div id="posts" class="col-sm-9">
+{% for post in site.posts %}
+<section class="post">
+    {% if checked_categories contains post.category | first %}
+    <h1><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h1>
+    <p>{{post.date | date: '%B %d, %Y' }}</p>
+    <p>{{post.content}}</p>
+    {% endif %}
+</section>
+{% endfor %}
+</div>
+
+<!-- Right side of page with option of navigation -->
+<div id="category" class="col-sm-3">
+    <ul>
+        <li><a href="{{site.baseurl}}">All</a></li>
+        {% for category in site.categories %}
+        <li><a href="{{site.baseurl}}{{category | first}}/">{{ category | first }}</a>
+        {% endfor %}
+    </ul>
+</div>
