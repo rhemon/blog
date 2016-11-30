@@ -6,8 +6,9 @@ image: asa.png
 head_image: asa.png
 meta: I have finally managed to get myself a developer account in google play store, and have launched an app.
 ---
-
+<div style="text-align: center;">
 <img src="{{site.baseurl}}/img/{{page.head_image}}" width="250px" height="250px"/>
+</div>
 
 While doing some excel work for my dad, I stumbled upon something that went by the name of 'sieve analysis of aggregates'. To do it in excel was quite simple, all I needed was to enter some data
 and excel would do all the calculation and form a semi-log graph for me. The only repetitive task I had was finding the values of the Y coordinate when X is 60 and 10.

@@ -6,9 +6,9 @@ image: no_image.png
 head_image: gci_task.png
 meta: My first task in GCI, to get myself started with open source
 ---
-
+<div style="text-align: center;">
 <img src="{{site.baseurl}}/img/{{page.head_image}}" width="800px" height="400px"/>
-
+</div>
 <br/>
 
 My first task was something really simple. First I had to create a Github account, and

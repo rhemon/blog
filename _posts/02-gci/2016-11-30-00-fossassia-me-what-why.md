@@ -3,15 +3,19 @@ layout: post-page
 title: FOSSASIA, me and Open Source
 category: gci
 image: fossasia.jpeg
-meta: Article on about my interests and participation with FOSSASIA and open source community.
+meta: Article on FOSSASIA and Open source community. Why did I choose FOSSASIA for GCI, and what it means to be a part of this community. 
+head_image: me_working.jpg
 ---
+<div style="text-align: center;">
+<img src="{{site.baseurl}}/img/{{page.head_image}}" width="400px" height="220px" />
+</div>
 
 Hello there,
 
-This is the article where I will writing about why I have decided to do the FOSSASIA
-community's tasks for my Google Code-in participation, and what this participation means to me. However, before I start my talk on that I would like have a brief introduction of FOSSASIA.
+In this article I will be writing about why I have decided to do the FOSSASIA
+community's tasks for my Google Code-in participation, and what this participation means to me. However, before I begin my talk on that I would like have a brief introduction of FOSSASIA.
 
-FOSSASIA is an organization (situated in Asia, established in 2009) that has been supporting developers and makers of open source technologies. The organization has a community of developers who do open source projects, like web applications, android applications, and many more. However, FOSSASIA's community isn't only about developers making softwares but also about the events and summits that they have organized in Vietnam, Cambodia and Singapore, where the developers in Asia had a huge gathering and such events and summits will keep taking part in different parts of Asia in future. To find out more about FOSSASIA visit their home page, <a href="http://fossasia.org">http://fossasia.org</a>.
+FOSSASIA is an organization (situated in Asia, established in 2009) that has been supporting developers and makers of open source technology. This organization has a community of developers who do open source projects, like web applications, android applications, and many more. However, FOSSASIA's community isn't only about developers making softwares but also about the events and summits that they have organized in Vietnam, Cambodia and Singapore, where the developers in Asia had a huge gathering and such events and summits will keep taking part in different parts of Asia in future. To find out more about FOSSASIA visit their home page, <a href="http://fossasia.org">http://fossasia.org</a>.
 
 Its also important to have an understanding of what open source is. In simple words it means that the software/application that is told to be open source has it's source code open to all. Developers can take it and do their own modifications. For a better explanation on what open source is, check the article <a href="https://opensource.com/resources/what-open-source">here</a>.
 
