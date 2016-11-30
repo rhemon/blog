@@ -21,4 +21,4 @@ enter the data. The app will read the graph and find the values of Y when X is b
 Through this project I gained more experience with data storage, creating custom view and  managing fragments.
 
 The code is available <a href="http://github.com/rhemon/aggregatesieveanalysis"> here </a>. The app can
-be downloaded from <a href="https://play.google.com/store/apps/details?id=io.github.rhemon.aggregatesieveanalysis"> here</a>. You can also have a view the project on my <a href="http://rhemon.github.io/portfolio/">portfolio</a>.
+be downloaded from <a href="https://play.google.com/store/apps/details?id=io.github.rhemon.aggregatesieveanalysis"> here</a>. You can also take a look at the project on my <a href="http://rhemon.github.io/portfolio/">portfolio</a>.
