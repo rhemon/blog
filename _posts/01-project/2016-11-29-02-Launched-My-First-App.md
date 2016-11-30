@@ -14,8 +14,8 @@ and excel would do all the calculation and form a semi-log graph for me. The onl
 After finding that I would have to type those data, and excel would find the final piece of data - uniform
 coefficient.
 
-I recently got a developer account on play store and I really wanted to get some apps published.
-Therefore I decided, to bring this simple task to an android app, where the user should only need t
+I recently got a developer account on play store and I really wanted to put up there for the world to judge.
+It was then that I decided, to bring this simple task to an android app, where the user should only need to
 enter the data. The app will read the graph and find the values of Y when X is 60 and 10, that also
 reduces human error.  
 
