@@ -9,8 +9,7 @@ meta: I have finally managed to get myself a developer account in google play st
 
 <img src="{{site.baseurl}}/img/{{page.head_image}}" width="250px" height="250px"/>
 
-While doing some excel work for my dad, I stumbled upon something called sieve analysis of
-aggregate. To do it in excel was quite simple. All I needed was to enter some data
+While doing some excel work for my dad, I stumbled upon something that went by the name of 'sieve analysis of aggregates'. To do it in excel was quite simple. All I needed was to enter some data
 and excel would do all the calculation and form a semi-log graph for me. However one thing
 remained repetitive, it was finding the values of Y co-ordinate when X is 60 and 10.
 After finding that I would have to type those data, and excel would find the final piece of data, uniform
