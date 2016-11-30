@@ -1,6 +1,6 @@
 ---
 layout: post-page
-title: My First App on Play Store!!!
+title: My First App on Play Store
 category: project
 image: asa.png
 head_image: asa.png
