@@ -16,11 +16,9 @@ coefficient.
 
 I recently got a developer account on play store and I really wanted to put up there for the world to judge.
 It was then that I decided, to bring this simple task to an android app, where the user should only need to
-enter the data. The app will read the graph and find the values of Y when X is 60 and 10, that also
-reduces human error.  
+enter the data. The app will read the graph and find the values of Y when X is both 60 and 10, doing this would also reduce human error.  
 
-Through this project I got myself more experienced with data storage, creating custom view, managing
-fragments.
+Through this project I gained more experience with data storage, creating custom view and  managing fragments.
 
 The code is available <a href="http://github.com/rhemon/aggregatesieveanalysis"> here </a>. The app can
 be downloaded from <a href="https://play.google.com/store/apps/details?id=io.github.rhemon.aggregatesieveanalysis"> here</a>. You can also have a view the project on my <a href="http://rhemon.github.io/portfolio/">portfolio</a>.
