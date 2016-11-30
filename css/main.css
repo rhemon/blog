@@ -1,4 +1,9 @@
-
+* p {
+    font-size: 16px;
+}
+* p strong {
+    font-size: 13px;
+}
 .post {
     position: relative;
     height: 180px;
@@ -7,10 +12,13 @@
     display: inline;
     float: left;
     text-align: center;
+    padding: 10px;
 }
 .post .content-holder {
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 25px;
     display: inline;
     float: right;
 }

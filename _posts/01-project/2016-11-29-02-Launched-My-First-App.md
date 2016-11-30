@@ -3,10 +3,11 @@ layout: post-page
 title: My First App on Play Store!!!
 category: project
 image: asa.png
+head_image: asa.png
 meta: I have finally managed to get myself a developer account in google play store, and have launched an app.
 ---
 
-<img src="{{site.baseurl}}/img/{{page.image}}" width="250px" height="250px"/>
+<img src="{{site.baseurl}}/img/{{page.head_image}}" width="250px" height="250px"/>
 
 While doing some excel work for my dad, I overcame something called sieve analysis of
 aggregate. To do it in excel was quite simple. All I needed was to enter some data

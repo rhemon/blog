@@ -2,11 +2,12 @@
 layout: post-page
 title: Started and finished my first task in GCI with FOSSASIA
 category: gci
-image: gci_task.png
+image: no_image.png
+head_image: gci_task.png
 meta: My first task in GCI, to get myself started with open source
 ---
 
-<img src="{{site.baseurl}}/img/{{page.image}}" width="800px" height="400px"/>
+<img src="{{site.baseurl}}/img/{{page.head_image}}" width="800px" height="400px"/>
 
 <br/>
 
