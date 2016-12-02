@@ -11,7 +11,7 @@ head_image: coderdojo_env.png
 <img src="{{site.baseurl}}/img/{{page.head_image}}" width="600px" height="420px" />
 </div>
 
-My task was to set up the zen environment and run CodeDojo platform locally.
+This time, <a href="http://fossasia.org">FOSSASIA's</a> task was to set up the zen environment and run <a href="http://coderdojo.com">CodeDojo</a> platform locally.
 The task was simple and had clear instructions in the README.md file in their <a href="https://github.com/coderdojo/cp-local-development">github repository</a>.
 
 Before setting up the environment it is required for you to have:
