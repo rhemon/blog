@@ -8,7 +8,7 @@ head_image: coderdojo_env.png
 ---
 
 <div style="text-align: center;">
-<img src="{{site.baseurl}}/img/{{page.head_image}}" width="400px" height="220px" />
+<img src="{{site.baseurl}}/img/{{page.head_image}}" width="600px" height="420px" />
 </div>
 
 My task was to set up the zen environment and run CodeDojo platform locally.
@@ -22,7 +22,7 @@ Before setting up the environment it is required for you to have:
 Links on those are also provided on the README file.
 
 Once you are done setting up you should be able to visit `localhost:8000` and have
-CoderDojo running, just like the above picture. 
+CoderDojo running, just like the above picture.
 
 # Troubleshooting
 
